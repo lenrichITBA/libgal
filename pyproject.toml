@@ -11,7 +11,7 @@ authors = [
 
 license = { file = "LICENSE.txt" }
 
-description = "Librería para simplificación del código en diversos proyectos"
+description = "Librería para la simplificación del código en diversos proyectos de Python"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
