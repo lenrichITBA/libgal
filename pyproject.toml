@@ -11,7 +11,7 @@ authors = [
 
 license = { file = "LICENSE.txt" }
 
-description = "Librería para agilizar el desarrollo de nuestros programadores en el Banco Galicia"
+description = "Librería para simplificación del código en diversos proyectos"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
