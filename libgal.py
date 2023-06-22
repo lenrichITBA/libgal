@@ -28,7 +28,7 @@ try:
     from teradatasql import OperationalError as TeradataError
     
     #Variables de entrono
-    from dotenv import load_dotenv, find_dotenv
+    from dotenv import load_dotenv
 
     #SQLALchemy
     from sqlalchemy import create_engine, Column, Integer, String, text
