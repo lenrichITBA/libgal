@@ -2,11 +2,10 @@
 """
 Created on Fri Mar 25 15:22:35 2022
 
-@author: Jean M. Gonzalez M.
-@Legajo: L1000310
-@version: 1.0
-@Description: Se utilizará como librería que contendrá procesos comunes para desarrolladores del Banco Galicia
-@last_update: 2022-03-25
+@author: Jean Manuel González Mejía
+@version: 0.0.13
+@Description: Librería para la simplificación del código en proyectos de Python
+@last_update: 2023-06-22
 """
 
 
