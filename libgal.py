@@ -31,7 +31,7 @@ try:
     from dotenv import load_dotenv
 
     #SQLALchemy
-    from sqlalchemy import create_engine, Column, Integer, String, text
+    from sqlalchemy import create_engine, Column, Integer, String, text, and_
     from sqlalchemy.orm import sessionmaker
     from sqlalchemy.ext.declarative import declarative_base
     from sqlalchemy.exc import OperationalError as SQLAlchemyError
