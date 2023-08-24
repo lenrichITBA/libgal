@@ -21,18 +21,12 @@ El output corresponden a las métricas de:
 * KS (Kolmogorov Smirnov)
 
 
+Los siguientes objetos tienen sintaxis heredada de sklearn, por lo que heredan los metodos correspondientes  ```fit```, ```transform```,```fit_transform```. Se aprovecha la nomenclatura estandarizada por el Banco Galicia para la ingeniería de variables. Por ejemplo, los objetos que tratan valores númericos afectan las variables con prefijo o sufijo "vl" el cual indica "volumen"y usualmente refiere a montos de dinero.
 
 ```python
-NumNormTransformer
+normalizador = NumNormTransformer() #Genera los Z-scores, es decir, la normalizacion de las variables solo de las columnas numericas
+logtransformer = NumLogTransformer() #Agrega el logaritmo de los valores solo de las columnas numericas
+reductorcategoricas = CategoricalReduceTransformer() #Se mantienen el 99% de las variables categoricas de mayor frecuencia, y el 1% menos frecuente es reemplazado por la categoria "Otros"
 ```
 
-```python
-NumLogTransformer
-```
 
-
-```python
-CategoricalReduceTransformer
-```
-
-  
